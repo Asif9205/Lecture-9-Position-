@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute & Relative</title>
+    <style>
+        /* html{
+            background: grey;
+        } */
+        #p {
+            width: 25em;
+            height: 25em;
+            background: #565656;
+            margin: auto;
+            position: relative;
+        }
+
+        .common {
+            width: 12.5em;
+            height: 12.5em;;
+            position: absolute;
+        }
+
+        .c1 {
+            background: cyan;
+            border-top-right-radius: 12.5em;
+            border-bottom-left-radius: 12.5em;
+            border-top-left-radius: 3em;
+            /* left: 5em; */
+            /* display: none; */
+            /* display: none; */   
+        }
+        
+        .c2 {
+            background: magenta;
+            top: 0em;
+            right: 0em;
+            border-top-left-radius: 12.5em;
+            border-bottom-right-radius: 12.5em;
+            border-top-right-radius: 3em;
+            /* display: none; */
+        }
+        
+        .c3 {
+            background: yellow;
+            bottom: 0em;
+            left: 0em;
+            border-top-left-radius: 12.5em;
+            border-bottom-right-radius: 12.5em;
+            border-bottom-left-radius: 3em;
+            /* display: none; */
+            /* left: 5em; */
+        }
+        
+        .c4 {
+            background: black;
+            bottom: 0em;
+            right: 0em;
+            border-top-right-radius: 12.5em;
+            border-bottom-left-radius: 12.5em;
+            border-bottom-right-radius: 3em;
+            /* display: none; */
+        }
+        </style>
+</head>
+
+<body>
+    <div id="p">
+        <div class="common c1 cyan"></div>
+        <div class="common c2 magenta"></div>
+        <div class="common c3 yellow"></div>
+        <div class="common c4 greenyellow"></div>
+    </div>
+</body>
+
+</html>
